@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "984396058311",
+    "project_id": "gcit-nye-tsul-2bf0f",
+    "storage_bucket": "gcit-nye-tsul-2bf0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984396058311:android:273cd37bbec8cf9121f8e2",
+        "android_client_info": {
+          "package_name": "gcit.edu.gcitnye_tsul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984396058311-1uvqcipk9at70ef3m49lk3ojqgrc8p0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChvt5TucMwymiXbZWSfNVEzA0BQvsonXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984396058311-1uvqcipk9at70ef3m49lk3ojqgrc8p0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

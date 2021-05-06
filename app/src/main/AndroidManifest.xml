@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gcit.edu.gcitnye_tsul">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GCITNyeTsul">
+        <activity android:name=".About"></activity>
+        <activity android:name=".home_page" />
+        <activity
+            android:name=".view_user"
+            android:label="User" />
+        <activity
+            android:name=".media"
+            android:label="Media"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".announcement"
+            android:label="Announcement"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".home"
+            android:label="@string/title" />
+        <activity
+            android:name=".forgot_Password"
+            android:label="Forgot Password"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".register_User"
+            android:label="Registration"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".register_Admin"
+            android:label="Registration"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
